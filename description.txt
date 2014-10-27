@@ -1,0 +1,7 @@
+easy_games
+
+
+Monsters don't dodge you anymore
+Increased chance to dodge
+Mastery tomes unlocked from the start
+Hunger takes five times longer to set in

@@ -20,9 +20,7 @@ package com.painless.easy;
 import com.opd.openpixeldungeon.DefaultAssets;
 
 public class Assets extends DefaultAssets {
-	public static final String BANNERS	= "easy/banners.png";
 	public static final String CHROME	= "easy/chrome.png";
 	public static final String DASHBOARD	= "easy/dashboard.png";
 	public static final String FIREBALL		= "easy/fireball.png";
-	public static final String ICONS	= "easy/icons.png";
 }

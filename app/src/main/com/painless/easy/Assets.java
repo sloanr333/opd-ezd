@@ -17,7 +17,7 @@
  */
 package com.painless.easy;
 
-import com.opd.openpixeldungeon.DefaultAssets;
+import com.opd.opdlib.DefaultAssets;
 
 public class Assets extends DefaultAssets {
 	public static final String CHROME	= "easy/chrome.png";

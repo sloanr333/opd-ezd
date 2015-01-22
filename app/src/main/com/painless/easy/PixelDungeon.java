@@ -19,7 +19,7 @@ package com.painless.easy;
 
 import android.os.Bundle;
 
-import com.opd.noosa.OPDGame;
+import com.opd.opdlib.OPDGame;
 import com.painless.easy.scenes.TitleScene;
 
 

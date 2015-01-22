@@ -19,7 +19,7 @@ package com.painless.easy.scenes;
 
 import javax.microedition.khronos.opengles.GL10;
 
-import com.opd.noosa.OPDScene;
+import com.opd.opdlib.OPDScene;
 
 import android.opengl.GLES20;
 

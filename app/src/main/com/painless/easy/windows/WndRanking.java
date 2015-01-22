@@ -19,7 +19,7 @@ package com.painless.easy.windows;
 
 import java.util.Locale;
 
-import com.opd.noosa.OPDScene;
+import com.opd.opdlib.OPDScene;
 import com.watabou.noosa.BitmapText;
 import com.watabou.noosa.ColorBlock;
 import com.watabou.noosa.Game;

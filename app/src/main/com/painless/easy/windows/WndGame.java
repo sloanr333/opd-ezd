@@ -20,6 +20,7 @@ package com.painless.easy.windows;
 import java.io.IOException;
 
 import com.watabou.noosa.Game;
+import com.opd.opdlib.OPDGame;
 import com.painless.easy.Dungeon;
 import com.painless.easy.scenes.GameScene;
 import com.painless.easy.scenes.InterlevelScene;
@@ -97,8 +98,13 @@ public class WndGame extends Window {
 		addButton( new RedButton( TXT_EXIT ) {
 			@Override
 			protected void onClick() {
+				try {
+					Dungeon.saveAll();
+				} catch (IOException e) {
+					//
+				}
                 //Game.TrackEvent("Application Stats", "Exit", "Game Menu");
-                Game.instance.finish();
+				OPDGame.quitSubGame();
 			}
 		} );
 		
